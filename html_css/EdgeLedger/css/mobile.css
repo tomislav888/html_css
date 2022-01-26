@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: block;
+  height: auto;
+  padding-top: 10px;
+}
+
+.navbar .logo {
+  text-align: center;
+}
+
+.navbar nav ul {
+  display: block;
+}
+
+.navbar a {
+  padding: 10px 5px;
+}
+
+nav {
+  margin: 5px 5px;
+}
+
+nav ul {
+  text-align: center;
+}
+
+.flex-items {
+  display: block;
+}
+
+.flex-columns .row {
+  display: block;
+}
+
+.flex-columns .row img {
+  height: 100%;
+  margin-bottom: 0;
+  margin-bottom: -10px;
+}
+
+.hero .content {
+  padding-top: 20px;
+}

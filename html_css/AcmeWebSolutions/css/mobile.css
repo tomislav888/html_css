@@ -1,0 +1,67 @@
+:root {
+  --grey: #333;
+  --white: #fff;
+  --whiteBackground: rgb(245, 245, 245);
+  --blue: rgb(38, 144, 212);
+}
+
+.pad {
+  max-width: 350px;
+}
+
+.topic .content .boxes {
+  display: block;
+  text-align: center;
+}
+
+.topic .content .boxes .left,
+.right {
+  width: 100%;
+}
+
+.topic .content .boxes .left {
+  padding-bottom: 20px;
+}
+.main {
+  height: 1400px;
+}
+
+.main .all {
+  display: block;
+  padding-top: 10px;
+}
+
+.main .all .case {
+  background-color: #fff;
+  max-width: 100%;
+  height: 85%;
+}
+
+.case {
+  margin-top: 20px;
+}
+
+.contact {
+  display: block;
+}
+
+.con {
+  width: 100%;
+  color: #fff;
+  background-color: var(--grey);
+  padding: 20px;
+  text-align: center;
+  height: 300px;
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.mob .con {
+  height: 60px;
+}
+
+.mob .con p {
+  padding-bottom: 20px;
+}
