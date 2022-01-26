@@ -1,0 +1,52 @@
+* {
+  /* display: none; */
+}
+
+.main {
+  display: block;
+}
+
+.intro {
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+.intro:first-child {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.navigation {
+  display: none;
+}
+
+.mobileNav {
+  display: block;
+  margin: 10px;
+  padding-top: 50px;
+}
+
+.mobileNav button {
+  padding: 10px;
+  margin: 10px 0px;
+  border: 1px solid var(--yellowColor);
+  background-color: var(--yellowColor);
+}
+
+.middleTaco {
+  display: block;
+  height: 500px;
+  padding: 20px;
+}
+
+.imgTaco {
+  width: 70%;
+  height: 60%;
+}
+
+.tacotext {
+  height: 40%;
+}
