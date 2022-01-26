@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>freeCodeCamp Survey Form</h1>
+    <p class="paragraph">Thank you for taking the time to help us improve the platform</p>
+    <div class="container">
+        <form class="form" action="">
+            <label for="name">Name:</label>
+            <input class="name" type="text">
+            <label for="email">Email</label>
+            <input class="name" type="text">
+            <label for="age">Age</label>
+            <input class="name" type="number">
+            <label for="cars">Which option best describes your current role?</label>
+            <select class="name" name="role">
+                <option value="" disabled selected>Select your option</option>
+                <option value="student">Student</option>
+                <option value="full time job">Full Time Job</option>
+                <option value="full time learner">Full Time Learner</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+             <div class="radio-buttons">
+                <input type="radio" >
+                <label for="html">Definitely</label><br>
+                <input type="radio">
+                <label for="css">Maybe</label><br>
+                <input type="radio">
+                <label for="javascript">Not sure</label>
+             </div>
+             <label for="cars">What is your favorite feature of freeCodeCamp?</label>
+            <select class="name" name="role">
+                <option value="" disabled selected>Select your option</option>
+                <option value="student">Challenges</option>
+                <option value="full time job">Projects</option>
+                <option value="full time learner">Community</option>
+                <option value="Prefer not to say">Open Source</option>
+            </select>
+            <div class="checkbox">
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <input type="checkbox">
+                <label for="vehicle1"> Front-end Projects</label><br>
+                <input type="checkbox">
+                <label for="vehicle2"> Back-end Projects</label><br>
+                <input type="checkbox">
+                <label for="vehicle3"> Data Visualization</label><br>
+                <input type="checkbox">
+                <label for="vehicle1"> Challenges</label><br>
+                <input type="checkbox">
+                <label for="vehicle2"> Open Source Community</label><br>
+                <input type="checkbox">
+                <label for="vehicle3"> Gitter help rooms</label><br>
+                <input type="checkbox">
+                <label for="vehicle1"> Videos</label><br>
+                <input type="checkbox">
+                <label for="vehicle2"> City Meetups</label><br>
+                <input type="checkbox">
+                <label for="vehicle3"> Wiki</label><br>
+                <input type="checkbox">
+                <label for="vehicle1"> Forum</label><br>
+                <input type="checkbox">
+                <label for="vehicle2"> Additional Courses</label><br>
+            </div>
+            <div class="textarea">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <textarea class="name textareabox" id="w3review" name="w3review" rows="4" cols="50">
+               
+                </textarea>
+            </div>
+            <div class="submit">
+                <input class="s" type="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
